@@ -1,0 +1,77 @@
+@font-face {
+    font-family: practica;
+    src: url(../../../public/fonts/PraktikaRounded-MediumExt.otf);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #6ADB84;
+    padding: 20px 30px;
+    font-family: practica;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 10px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #003249;
+    font-size: 0.85rem;
+}
+.active{
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 8px;
+    border-radius: 8px;
+}
+#mobile{
+    display: none;
+}
+#mobile i{
+    color: #fff;
+    align-items: center;
+}
+.logoMax{
+    width: 150px;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width:769px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        position: fixed;
+        top: 60px;
+        right: -50%;
+        width: 50%;
+        height: 100vh;
+        background-color: #6ADB84;
+        z-index: 9999;
+        padding: 40px 0 0 10px;
+        transition: 0.8s all ease;
+    }
+    #navbar.active{
+        right: 0;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: block;
+    }
+    #mobile i{
+        cursor: pointer;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,20 @@
+
+.test{
+    margin-top: -30%;
+    font-family: Practica;
+}
+.firstSpan{
+    font-weight: bold;
+}
+.mainPhoto{
+    height: 100vh;
+}
+
+@media screen and (max-width: 769px) {
+    .mainPhoto{
+        height: 100vh;
+    }
+    .test{
+        margin-top: -75%;
+    }
+}
