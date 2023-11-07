@@ -7,6 +7,7 @@ import AboutPage from './components/pages/AboutPage';
 import ContactPage from './components/pages/ContactPage';
 import Shpalljet from './components/pages/Shpalljet';
 import SinglePageOfAds from './components/pages/SinglePageOfAds';
+import ScrollToTop from 'react-scroll-to-top';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/ads/:adsID" element={<SinglePageOfAds />} />
         </Routes>
         </BrowserRouter>
+        <ScrollToTop smooth />
      {/* <Mainpage /> */}
    </>
   );
