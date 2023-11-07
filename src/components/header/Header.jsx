@@ -63,6 +63,8 @@ const Header = () => {
             <ul id="navbar" className={clicked ? "#navbar active" : "#navbar"}>
                 <li><NavLink to="/" className="" onClick={closeMenu}>BALLINA</NavLink></li>
                 <li><NavLink to="/about" className="" onClick={closeMenu}>RRETH NESH</NavLink></li>
+                {/* <li><NavLink to="/activity" onClick={closeMenu}>AKTIVITETET</NavLink></li> */}
+                <li><NavLink to="/ads" onClick={closeMenu}>SHPALLJET</NavLink></li>
                 <li><NavLink to="/contact" onClick={closeMenu}>KONTAKTI</NavLink></li>
             </ul>
          </div>

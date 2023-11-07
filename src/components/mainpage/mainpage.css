@@ -9,6 +9,22 @@
 .mainPhoto{
     height: 100vh;
 }
+.konkursText{
+    font-family: Practica;
+    font-size: 1.5rem;
+}
+.datePublic{
+    font-family: Practica;
+    font-size: 0.7rem;
+}
+.adsPhoto{
+    background-color: #6ADB84;
+    height: 33vh;
+    display: grid;
+    place-items: center;
+    font-family: Practica;
+    color: white;
+}
 
 @media screen and (max-width: 769px) {
     .mainPhoto{
