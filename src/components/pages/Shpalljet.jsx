@@ -4,7 +4,7 @@ import { adsData } from './shpalljetData';
 
 const Shpalljet = () => {
   return (
-    <div className="container mt-4">
+    <div className="container-fluid mt-4">
       <div className="row justify-content-center align-items-center">
         {adsData?.map((ad) => (
           <div key={ad.id} className="col-md-4 col-sm-6 col-12 mb-4">
@@ -13,7 +13,7 @@ const Shpalljet = () => {
                 KONKURS
               </div>
               <div className="card-body">
-                <h5 className="card-title fw-bold aboutUsDescription text-uppercase">{ad.title}</h5>
+                <p className="card-title fw-bold aboutUsDescription text-uppercase">{ad.title}</p>
                 <p className="card-text aboutUsDescription">{ad.description}</p>
                 <p className="card-text">
                   <small className="datePublic text-success">Data e publikimit: {ad.publicationDate}</small>

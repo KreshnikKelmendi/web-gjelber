@@ -9,3 +9,7 @@ h3,
 .font{
   font-family: practica;
 }
+
+.card-body{
+  height: 250px;
+}
