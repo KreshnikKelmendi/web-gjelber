@@ -1,12 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { adsData } from './shpalljetData';
-import QualificationsSection from './QualificationSection';
-import ResponsibilitiesSection from './ResponsibilitiesSection';
-import ApplicationProcedureSection from './ApplicationProcedureSection';
 
 // Import the PDF icon image
-import pdfIcon from "../../assets/pdf.png"; // Replace with the actual path to your PDF icon image
+import pdfIcon from "../../assets/pdf.png"; 
 
 const SinglePageOfAds = () => {
   const { adsID } = useParams();
@@ -209,7 +206,7 @@ const SinglePageOfAds = () => {
           </ul>
           <p className='py-6'>
             {aplikoni}
-              </p>
+          </p>
         </div>
       </div>
     </section>

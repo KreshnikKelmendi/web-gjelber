@@ -11,7 +11,7 @@ const adsData = [
       description: 'Ndërmarrja publike lokale “Gjelbër” SH.A shpall konkurs për...',
       imageUrl: image2,
       publicationDate: '29.11.2023',
-      headingTop: "Bazuar në vendimin e Bordit të Drejtorëve nr. 2655 të datës 18.10.2023 si dhe dispozitave të nenit 21 të Ligjit nr. 03/L-087 mbi Ndërmarrjet Publike, respektivisht dispozitave të nenit 13 të Ligjit nr. 04/L-111 për ndryshimin dhe plotësimin e ligjit nr. 03/L-087 për Ndërmarrjet Publike, nenit 5 pika 5.3 të Statutit të NPL “Gjelbër” SH.A, Bordi i Drejtorëve të NPL “Gjelbër” SH.A me datë 24.10.2023 shpall konkurs publik për këtë pozitë:",
+      headingTop: "Në bazë të nenit 8 të Ligjit të Punës nr.03/L-212, Rregullores mbi organizimin dhe sistematizimin e vendeve dhe detyrave të punës nr.1292 të datë:16.06.2023 si dhe Rregullores për procedurat e rekrutimit, marrëdhënien kontraktuale dhe avancim në detyrë në ndërmarrje me nr.1338 të datë:20.06.2023, NPL ”Gjelbër” SH.A. me datë 29.11.2023 shpall këtë: ",
       titulliPozites: "Koordinator/e për ngritjen dhe mirëmbajtjen e sipërfaqeve gjelbëruese",
       kontrata: "puna provuese 6 muaj (me mundësi vazhdimi)",
       orari: "I plotë",
