@@ -2,9 +2,45 @@ import image2 from "../../assets/konkursi.jpg"
 import aplikacioni from "../../assets/deklarata.pdf"
 import aplikacioniPunesimit from "../../assets/aplikacioniPerPunesim.pdf"
 import aplikacionipdf from "../../assets/Konkurs i Jashtëm Koordinator_.pdf"
+import aplikacionipdf2 from "../../assets/ZKFTH.pdf"
 
 
 const adsData = [
+  {
+    id: 1,
+    title: 'Zyrtar Kryesor Financiar dhe i Thesarit',
+    description: 'Ndërmarrja publike lokale “Gjelbër” SH.A shpall konkurs për...',
+    imageUrl: image2,
+    publicationDate: '24.10.2023',
+    headingTop: "Bazuar në vendimin e Bordit të Drejtorëve nr. 2655 të datës 18.10.2023 si dhe dispozitave të nenit 21 të Ligjit nr. 03/L-087 mbi Ndërmarrjet Publike, respektivisht dispozitave të nenit 13 të Ligjit nr. 04/L-111 për ndryshimin dhe plotësimin e ligjit nr. 03/L-087 për Ndërmarrjet Publike, nenit 5 pika 5.3 të Statutit të NPL “Gjelbër” SH.A, Bordi i Drejtorëve të NPL “Gjelbër” SH.A me datë 24.10.2023 shpall konkurs publik për këtë pozitë:",
+    titulliPozites: "Zyrtar Kryesor Financiar dhe i Thesarit",
+    kontrata: "3 vite me mundësi vazhdimi",
+    orari: "I plotë",
+    paga: "Sipas Rregullores së Brendshme të Ndërmarrjes",
+    vendi: "Prishtinë",
+    diploma: "Të posedojë diplomë universitare – Fakulteti Ekonomik",
+    pervojaPunes: "Së paku 5 vite punë profesionale nga fusha e Financave dhe/ose Kontabilitetit.",
+    kushtetKualifikimit: "Të plotësojë kushtet e kualifikimit sipas nenit 17.1 si dhe të plotësojë kriteret e pavarësisë sipas nenit 17.2 pikat (d),(f),(j),(k),(l) të Ligjit nr. 03/L-087 të Ndërmarrjeve Publike dhe Plotësim Ndryshimit të LNP nr. 04/L-111 neni 13;",
+    njohjaLigjeve: "Njohja e mirë e ligjeve dhe rregulloreve në fuqi, me theks të veçantë në Ligjin për NP, Ligjin për Shoqëritë Tregtare;",
+    aftesiOrganizative: "Të ketë aftësi organizative, drejtuese dhe aftësi të shkëlqyeshme të komunikimit;",
+    shkathtesi:"Shkathtësi të dëshmuara në punë me grupe dhe organizim të ndërmarrjes apo të ngjashme;",
+    shkathtesiKompjuterike: "Shkathtësi të mira në punën me kompjuter;",
+    gjuhaAngleze: "Njohja e Gjuhës Angleze e preferuar.",
+    detyra1: "Përpilon planin buxhetor dhe kërkesën për ndarje buxhetore të ndërmarrjes;",
+    detyra2: "Përpilon planin e biznesit, raportet vjetore dhe tremujore brenda afateve të përcaktuara me Ligjin për Ndërmarrjet Publike;",
+    detyra3: "Siguron që të gjitha faturat e rregullta të pranuara në ndërmarrje të regjistrohen dhe të ekzekutohen brenda afatit ligjor;",
+    detyra4: "Është përgjegjës për zbatimin e të gjitha dispozitave financiare dhe standardeve të kontabilitetit, ligjet e aplikueshme në Kosovë, të cilat rregullojnë çështjet financiare dhe aktet normative të ndërmarrjes;",
+    detyra5: "Organizon, udhëheq dhe kontrollon punën e departamentit financiar;",
+    detyra6: "Mban evidencë dhe dokumentacion të saktë për investimet dhe pagesat e ndërmarrjes;",
+    detyra7: "Kujdeset për pasurinë e ndërmarrjes, monitoron punën e komisioneve, kontrollon hyrje - daljet financiare në përgjithësi;",
+    detyra8: "Përcjell gjendjen financiare në banka dhe bashkëpunon me institucionet bankare dhe organet tjera në interes të ndërmarrjes;",
+    aplikacioniPlotesuar:"Aplikacionin e plotësuar",
+    diplomaNevojshme:"Diplomën universitare nga Fakulteti Ekonomik;",
+    aplikoni:"Aplikantët e interesuar kërkesën për aplikim me dokumentacion të rregullt, duhet ta paraqesin në arkivin e NPL ”Gjelbër’’Sh.A., Rr. Tahir Zajmi në Prishtinë objekti i Zjarrëfikësve, çdo ditë pune prej orës 07:00 – 15:00, në afat prej 30 ditësh nga data e publikimit të konkursit në mjetet e informimit. Data përfundimtare për dorëzimin e aplikacioneve është 24.11.2023. Aplikacioni mund të merret në zyrat e ndërmarrjes.",
+    aplikacioniNenBetim: aplikacioni,
+    aplikacioniPerPunesim: aplikacioniPunesimit,
+    aplikimiPDF:aplikacionipdf2
+  },
   {
       id: 2,
       title: "Koordinator/e për ngritjen dhe mirëmbajtjen e sipërfaqeve gjelbëruese",
@@ -32,41 +68,8 @@ const adsData = [
       aplikacioniNenBetim: aplikacioni,
       aplikacioniPerPunesim: aplikacioniPunesimit,
       aplikimiPDF:aplikacionipdf
-  },
-    {
-      id: 1,
-      title: 'Zyrtar Kryesor Financiar dhe i Thesarit',
-      description: 'Ndërmarrja publike lokale “Gjelbër” SH.A shpall konkurs për...',
-      imageUrl: image2,
-      publicationDate: '24.10.2023',
-      headingTop: "Bazuar në vendimin e Bordit të Drejtorëve nr. 2655 të datës 18.10.2023 si dhe dispozitave të nenit 21 të Ligjit nr. 03/L-087 mbi Ndërmarrjet Publike, respektivisht dispozitave të nenit 13 të Ligjit nr. 04/L-111 për ndryshimin dhe plotësimin e ligjit nr. 03/L-087 për Ndërmarrjet Publike, nenit 5 pika 5.3 të Statutit të NPL “Gjelbër” SH.A, Bordi i Drejtorëve të NPL “Gjelbër” SH.A me datë 24.10.2023 shpall konkurs publik për këtë pozitë:",
-      titulliPozites: "Zyrtar Kryesor Financiar dhe i Thesarit",
-      kontrata: "3 vite me mundësi vazhdimi",
-      orari: "I plotë",
-      paga: "Sipas Rregullores së Brendshme të Ndërmarrjes",
-      vendi: "Prishtinë",
-      diploma: "Të posedojë diplomë universitare – Fakulteti Ekonomik",
-      pervojaPunes: "Së paku 5 vite punë profesionale nga fusha e Financave dhe/ose Kontabilitetit.",
-      kushtetKualifikimit: "Të plotësojë kushtet e kualifikimit sipas nenit 17.1 si dhe të plotësojë kriteret e pavarësisë sipas nenit 17.2 pikat (d),(f),(j),(k),(l) të Ligjit nr. 03/L-087 të Ndërmarrjeve Publike dhe Plotësim Ndryshimit të LNP nr. 04/L-111 neni 13;",
-      njohjaLigjeve: "Njohja e mirë e ligjeve dhe rregulloreve në fuqi, me theks të veçantë në Ligjin për NP, Ligjin për Shoqëritë Tregtare;",
-      aftesiOrganizative: "Të ketë aftësi organizative, drejtuese dhe aftësi të shkëlqyeshme të komunikimit;",
-      shkathtesi:"Shkathtësi të dëshmuara në punë me grupe dhe organizim të ndërmarrjes apo të ngjashme;",
-      shkathtesiKompjuterike: "Shkathtësi të mira në punën me kompjuter;",
-      gjuhaAngleze: "Njohja e Gjuhës Angleze e preferuar.",
-      detyra1: "Përpilon planin buxhetor dhe kërkesën për ndarje buxhetore të ndërmarrjes;",
-      detyra2: "Përpilon planin e biznesit, raportet vjetore dhe tremujore brenda afateve të përcaktuara me Ligjin për Ndërmarrjet Publike;",
-      detyra3: "Siguron që të gjitha faturat e rregullta të pranuara në ndërmarrje të regjistrohen dhe të ekzekutohen brenda afatit ligjor;",
-      detyra4: "Është përgjegjës për zbatimin e të gjitha dispozitave financiare dhe standardeve të kontabilitetit, ligjet e aplikueshme në Kosovë, të cilat rregullojnë çështjet financiare dhe aktet normative të ndërmarrjes;",
-      detyra5: "Organizon, udhëheq dhe kontrollon punën e departamentit financiar;",
-      detyra6: "Mban evidencë dhe dokumentacion të saktë për investimet dhe pagesat e ndërmarrjes;",
-      detyra7: "Kujdeset për pasurinë e ndërmarrjes, monitoron punën e komisioneve, kontrollon hyrje - daljet financiare në përgjithësi;",
-      detyra8: "Përcjell gjendjen financiare në banka dhe bashkëpunon me institucionet bankare dhe organet tjera në interes të ndërmarrjes;",
-      aplikacioniPlotesuar:"Aplikacionin e plotësuar",
-      diplomaNevojshme:"Diplomën universitare nga Fakulteti Ekonomik;",
-      aplikoni:"Aplikantët e interesuar kërkesën për aplikim me dokumentacion të rregullt, duhet ta paraqesin në arkivin e NPL ”Gjelbër’’Sh.A., Rr. Tahir Zajmi në Prishtinë objekti i Zjarrëfikësve, çdo ditë pune prej orës 07:00 – 15:00, në afat prej 30 ditësh nga data e publikimit të konkursit në mjetet e informimit. Data përfundimtare për dorëzimin e aplikacioneve është 24.11.2023. Aplikacioni mund të merret në zyrat e ndërmarrjes.",
-      aplikacioniNenBetim: aplikacioni,
-      aplikacioniPerPunesim: aplikacioniPunesimit,
-    }
+  }
+  
   ]
 
     export {adsData}
