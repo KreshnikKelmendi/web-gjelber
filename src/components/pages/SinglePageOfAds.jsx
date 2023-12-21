@@ -38,12 +38,16 @@ const SinglePageOfAds = () => {
     detyra6,
     detyra7,
     detyra8,
+    detyra9,
+    detyra10,
+    detyra11,
     aplikacioniPlotesuar,
     diplomaNevojshme,
     aplikoni,
     aplikacioniNenBetim,
     aplikacioniPerPunesim,
-    aplikimiPDF
+    aplikimiPDF,
+    aplikimiPDFSrb
   } = ad;
 
   return (
@@ -163,6 +167,21 @@ const SinglePageOfAds = () => {
                 {detyra8}
               </li>
             )}
+            {detyra9 && (
+              <li>
+                {detyra9}
+              </li>
+            )}
+            {detyra10 && (
+              <li>
+                {detyra10}
+              </li>
+            )}
+            {detyra11 && (
+              <li>
+                {detyra11}
+              </li>
+            )}
           </ul>
         </div>
       </div>
@@ -237,6 +256,15 @@ const SinglePageOfAds = () => {
                 </a>
               </p>
               )}
+
+              {aplikimiPDFSrb && ( 
+                  <p className='mx-2 my-4'> 
+                  <a className='text-decoration-none' href={aplikimiPDFSrb} download="Konkurs i Jashtëm Koordinator_.pdf">
+                    <img src={pdfIcon} alt="PDF Icon" width="20" height="20" />
+                      SHIKO KONKURSIN NË GJUHËN SERBE - PDF
+                  </a>
+                </p>
+                )}
 
           </div>
         </div>

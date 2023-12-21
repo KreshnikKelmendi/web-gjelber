@@ -3,9 +3,47 @@ import aplikacioni from "../../assets/deklarata.pdf"
 import aplikacioniPunesimit from "../../assets/aplikacioniPerPunesim.pdf"
 import aplikacionipdf from "../../assets/Konkurs i Jashtëm Koordinator_.pdf"
 import aplikacionipdf2 from "../../assets/ZKFTH.pdf"
-
+import aplikacionipdf3 from "../../assets/1.Konkursi 19.12.2023 gjuha-shqipe.pdf"
+import aplikacionipdf4 from "../../assets/1.Konkursi 19.12.2023 gjuha-serbe zyrtare burimeve njerzore.pdf"
 
 const adsData = [
+  {
+    id: 3,
+    title: "Zyrtar/e në Njësinë e Burimeve Njerëzore",
+    description: 'Ndërmarrja publike lokale “Gjelbër” SH.A shpall konkurs për...',
+    imageUrl: image2,
+    publicationDate: '19.12.2023',
+    headingTop: "Në bazë të nenit 8 të Ligjit të Punës nr.03/L-212, Rregullores mbi organizimin dhe sistematizimin e vendeve dhe detyrave të punës nr.1292 të datë:16.06.2023 si dhe Rregullores për procedurat e rekrutimit, marrëdhënien kontraktuale dhe avancim në detyrë në ndërmarrje me nr. 1338 të datë: 20.06.2023, në bazë të vendimit më nr. 2659 të datës 18.10.2013, si dhe kërkesën me nr. 3476 dhe aprovimi nga Kryeshefe Ekzekutive. NPL ”Gjelbër” SH.A. me datë 19.12.2023 shpall këtë: ",
+    titulliPozites: "Zyrtar/e në Njësinë e Burimeve Njerëzore",
+    kontrata: "Gjashtë (6) muaj  më mundësi vazhdimi deri në përfundim të pushimit të lehonisë.",
+    orari: "I plotë",
+    paga: "Koeficienti 9",
+    vendi: "Prishtinë",
+    diploma: "Diplomë universitare - Fakulteti Juridik ose Ekonomik",
+    pervojaPunes: "2 vite përvojë pune",
+    kushtetKualifikimit: "Të plotësojë kushtet e kualifikimit sipas nenit 17.1 si dhe të plotësojë kriteret e pavarësisë sipas nenit 17.2 pikat (d),(f),(j),(k),(l) të Ligjit nr. 03/L-087 të Ndërmarrjeve Publike dhe Plotësim Ndryshimit të LNP nr. 04/L-111 neni 13;",
+    aftesiOrganizative: "- përgatit të dhëna për llogaritjen e pagave në bazë të dokumentacionit përkatës: Aktvendimet, vendimet, listat e të punësuarve, pushimet mjekësore etj sipas udhëzimeve dhe në koordinim të ngushtë me Udhëheqësin e BNJ",
+    shkathtesi:"-	siguron që dokumentet e stafit të rekrutuar të kompletohen, të plotësohen dhe të përpunohen në kohën e duhur",
+    gjuhaAngleze: "Njohja e Gjuhës Angleze e preferuar.",
+    detyra1: "-	kryen, analizon dhe interpreton të dhënat për dosjet e personelit",
+    detyra2: "-	ndihmon departamentin në përgatitjen e programit të trajnimit për stafin e ri të departamenteve",
+    detyra3: "-	ndihmon në koordinimin e planifikimit vjetor të pushimeve të punonjësve, mungesat nga puna të paguara dhe të papaguara",
+    detyra4: "-	mban të dhëna për pjesëmarrjen e stafit të Ndërmarrjes në programet e trajnimit dhe merr një vlerësim të efektivitetit të trajnimit",
+    detyra5: "- administron praktikat dhe vendosjen e studentëve për praktika dhe vullnetar dhe	koordinon lëshimin e çertifikatave të punës lidhur me punonjësit e Ndërmarrjes",
+    detyra6: "-	përcjell kërkesat përkatëse ligjore, si kodi I punës dhe siguron që këto të respektohen",
+    detyra7: "-	informohet për ndryshimet në legjislacionin e punës dhe udhëzimet përkatëse ",
+    detyra8: "-	përpunon raporte dhe statistika të departamenteve dhe merr pjesë statistikave dhe departamenteve",
+    detyra9: "-	merr pjesë në hartimin e planit të biznesit të Ndërmarrjes në fushë e BNJ.",
+    detyra10: "- kryen punë të tjera të caktuara nga Udhëheqësi i Njësisë, sipas fushës së kompetencës dhe pozitës",
+    detyra11: "-	i përgjigjet Udhëheqësit të Burimeve Njerëzore.",
+    aplikacioniPlotesuar:"Aplikacionin e plotësuar",
+    diplomaNevojshme: "Diplomë universitare - Fakulteti Juridik ose Ekonomik",
+    aplikoni:"Aplikacionet  duhet të dorëzohen të mbyllura në zarf, pranë zyrës së  NPL”Gjelbër” SH.A. rr Tahir Zajmi pn. Aplikacionet e dërguara me postë me rekomandë, të cilat mbajnë vulën postare mbi dërgesën e bërë ditën e fundit të afatit për aplikim, do të konsiderohen të vlefshme dhe do të merren në shqyrtim nëse arrijnë brenda dy (2) ditësh. Aplikacionet dhe dokumentacioni  i pakompletuar sipas kërkesave të përcakuara në këtë shpallje si dhe ato që arrijnë pas skadimit të afatit të konkursit, nuk do të shqyrtohen. Shpallja është e hapur që nga data 19.12.2023 - 03.01.2024.",
+    aplikacioniNenBetim: aplikacioni,
+    aplikacioniPerPunesim: aplikacioniPunesimit,
+    aplikimiPDF:aplikacionipdf3,
+    aplikimiPDFSrb:aplikacionipdf4
+  },
   {
     id: 1,
     title: 'Zyrtar Kryesor Financiar dhe i Thesarit',
